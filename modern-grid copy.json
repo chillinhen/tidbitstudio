@@ -1,0 +1,485 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Modern Grid",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"link": true,
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#E96F5C",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#95A3B4",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#34DFB3",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "foreground",
+					"color": "#2C3035",
+					"name": "Foreground"
+				},
+				{
+					"slug": "dark",
+					"color": "#424850",
+					"name": "Dark"
+				},
+				{
+					"slug": "mediumdark",
+					"color": "#95A3B4",
+					"name": "Medium Dark"
+				},
+				{
+					"slug": "mediumlight",
+					"color": "#DCE0E6",
+					"name": "Medium Light"
+				},
+				{
+					"slug": "base",
+					"color": "#EFF1F4",
+					"name": "Light"
+				},
+				{
+					"slug": "background",
+					"color": "#FBFCFC",
+					"name": "Background"
+				},
+				{
+					"slug": "darkest",
+					"color": "#000000",
+					"name": "Black"
+				},
+				{
+					"slug": "lightest",
+					"color": "#ffffff",
+					"name": "White"
+				},
+				{
+					"slug": "transparent",
+					"color": "rgba(255,255,255,0)",
+					"name": "Transparent"
+				}
+			],
+			"duotone": [
+				{
+					"name": "Foreground & Background",
+					"slug": "foreground-background",
+					"colors": [
+						"#2C3035",
+						"#FBFCFC"
+					]
+				},
+				{
+					"name": "Background & Foreground",
+					"slug": "background-foreground",
+					"colors": [
+						"#FBFCFC",
+						"#FBFCFC"
+					]
+				},
+				{
+					"name": "Primary & Secondary",
+					"slug": "primary-secondary",
+					"colors": [
+						"#E96F5C",
+						"#95A3B4"
+					]
+				},
+				{
+					"name": "Primary & Tertiary",
+					"slug": "primary-tertiary",
+					"colors": [
+						"#E96F5C",
+						"#34DFB3"
+					]
+				},
+				{
+					"name": "Secondary & Tertiary",
+					"slug": "secondary-tertiary",
+					"colors": [
+						"#95A3B4",
+						"#34DFB3"
+					]
+				},
+				{
+					"name": "Primary & Background",
+					"slug": "primary-background",
+					"colors": [
+						"#E96F5C",
+						"#FBFCFC"
+					]
+				},
+				{
+					"name": "Background & Primary",
+					"slug": "background-primary",
+					"colors": [
+						"#FBFCFC",
+						"#E96F5C"
+					]
+				},
+				{
+					"name": "Secondary & Background",
+					"slug": "secondary-background",
+					"colors": [
+						"#95A3B4",
+						"#FBFCFC"
+					]
+				},
+				{
+					"name": "Background & Secondary",
+					"slug": "background-secondary",
+					"colors": [
+						"#FBFCFC",
+						"#95A3B4"
+					]
+				},
+				{
+					"name": "Tertiary & Background",
+					"slug": "tertiary-background",
+					"colors": [
+						"#3FDEA7",
+						"#FBFCFC"
+					]
+				},
+				{
+					"name": "Background & Tertiary",
+					"slug": "background-tertiary",
+					"colors": [
+						"#FBFCFC",
+						"#3FDEA7"
+					]
+				},
+				{
+					"name": "Primary & Foreground",
+					"slug": "primary-foreground",
+					"colors": [
+						"#E96F5C",
+						"#2C3035"
+					]
+				},
+				{
+					"name": "Foreground & Primary",
+					"slug": "foreground-primary",
+					"colors": [
+						"#2C3035",
+						"#E96F5C"
+					]
+				},
+				{
+					"name": "Secondary & Foreground",
+					"slug": "secondary-foreground",
+					"colors": [
+						"#F6A1FF",
+						"#2C3035"
+					]
+				},
+				{
+					"name": "Foreground & Secondary",
+					"slug": "foreground-secondary",
+					"colors": [
+						"#2C3035",
+						"#F6A1FF"
+					]
+				},
+				{
+					"name": "Tertiary & Foreground",
+					"slug": "tertiary-foreground",
+					"colors": [
+						"#3FDEA7",
+						"#2C3035"
+					]
+				},
+				{
+					"name": "Foreground & Tertiary",
+					"slug": "foreground-tertiary",
+					"colors": [
+						"#2C3035",
+						"#3FDEA7"
+					]
+				}
+			]
+			"gradients": [
+				{
+					"name": "Primary to secondary",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--secondary) 100%)",
+					"slug": "primary-to-secondary"
+				},
+				{
+					"name": "Primary to tertiary",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--tertiary) 100%)",
+					"slug": "primary-to-tertiary"
+				},
+				{
+					"name": "Secondary to primary",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--primary) 100%)",
+					"slug": "secondary-to-primary"
+				},
+				{
+					"name": "Background to primary",
+					"gradient": "linear-gradient(235deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--background) 100%)",
+					"slug": "background-to-primary"
+				},
+				{
+					"name": "Tertiary to primary",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--primary) 100%)",
+					"slug": "tertiary-to-primary"
+				},
+				{
+					"name": "Primary to background",
+					"gradient": "linear-gradient(235deg,var(--wp--preset--color--background) 0%,var(--wp--preset--color--primary) 100%)",
+					"slug": "primary-to-background"
+				},
+				{
+					"name": "Secondary to tertiary",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%)",
+					"slug": "secondary-to-tertiary"
+				},
+				{
+					"name": "Tertiary to secondary",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--secondary) 100%)",
+					"slug": "tertiary-to-secondary"
+				},
+				{
+					"name": "Background to secondary",
+					"gradient": "linear-gradient(235deg,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%)",
+					"slug": "background-to-secondary"
+				},
+				{
+					"name": "Background to tertiary",
+					"gradient": "linear-gradient(235deg,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%)",
+					"slug": "background-to-tertiary"
+				},
+				{
+					"name": "Secondary to background",
+					"gradient": "linear-gradient(235deg,var(--wp--preset--color--background) 0%,var(--wp--preset--color--secondary) 100%)",
+					"slug": "secondary-to-background"
+				},
+				{
+					"name": "Tertiary to background",
+					"gradient": "linear-gradient(235deg,var(--wp--preset--color--background) 0%,var(--wp--preset--color--tertiary) 100%)",
+					"slug": "tertiary-to-background"
+				},
+				{
+					"name": "Foreground to primary",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--foreground) 0%,var(--wp--preset--color--primary) 100%)",
+					"slug": "foreground-to-primary"
+				},
+				{
+					"name": "Foreground to secondary",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--foreground) 0%,var(--wp--preset--color--secondary) 100%)",
+					"slug": "foreground-to-secondary"
+				},
+				{
+					"name": "Foreground to tertiary",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--foreground) 0%,var(--wp--preset--color--tertiary) 100%)",
+					"slug": "foreground-to-tertiary"
+				},
+				{
+					"name": "Primary to Foreground",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%)",
+					"slug": "primary-to-foreground"
+				},
+				{
+					"name": "Secondary to Foreground",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--foreground) 100%)",
+					"slug": "secondary-to-foreground"
+				},
+				{
+					"name": "Tertiary to Foreground",
+					"gradient": "linear-gradient(135deg,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--foreground) 100%)",
+					"slug": "tertiary-to-foreground"
+				},
+				{
+					"name": "Background to medium light",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--background) 0%,var(--wp--preset--color--mediumlight) 100%)",
+					"slug": "background-to-mediumlight"
+				},
+				{
+					"name": "Lightest to medium light",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--lightest) 0%,var(--wp--preset--color--mediumlight) 100%)",
+					"slug": "lightest-to-mediumlight"
+				},
+				{
+					"name": "Medium light to dark",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--mediumlight) 0%,var(--wp--preset--color--dark) 100%)",
+					"slug": "mediumlight-to-dark"
+				},
+				{
+					"name": "Medium light to background",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--mediumlight) 0%,var(--wp--preset--color--background) 100%)",
+					"slug": "mediumlight-to-background"
+				},
+				{
+					"name": "Medium light to lightest",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--mediumlight) 0%,var(--wp--preset--color--lightest) 100%)",
+					"slug": "mediumlight-to-lightest"
+				},
+				{
+					"name": "Dark to medium dark",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--dark) 0%,var(--wp--preset--color--mediumdark) 100%)",
+					"slug": "dark-to-mediumdark"
+				},
+				{
+					"name": "Vertical Background to primary",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--background) 0%,var(--wp--preset--color--primary) 100%)",
+					"slug": "vertical-background-to-primary"
+				},
+				{
+					"name": "Vertical Background to secondary",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--background) 0%,var(--wp--preset--color--secondary) 100%)",
+					"slug": "vertical-background-to-secondary"
+				},
+				{
+					"name": "Vertical Background to tertiary",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--background) 0%,var(--wp--preset--color--tertiary) 100%)",
+					"slug": "vertical-background-to-tertiary"
+				},
+				{
+					"name": "Vertical Primary to background",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--background) 100%)",
+					"slug": "vertical-primary-to-background"
+				},
+				{
+					"name": "Vertical Secondary to background",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%)",
+					"slug": "vertical-secondary-to-background"
+				},
+				{
+					"name": "Vertical Tertiary to background",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%)",
+					"slug": "vertical-tertiary-to-background"
+				},
+				{
+					"name": "Vertical Cut between foreground and transparent 1/4",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--foreground) 25%,var(--wp--preset--color--transparent) 25%)",
+					"slug": "cut-foreground-transparent-1-4"
+				},
+				{
+					"name": "Vertical Cut between foreground and transparent 1/2",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--foreground) 50%,var(--wp--preset--color--transparent) 50%)",
+					"slug": "cut-foreground-transparent-1-2"
+				},
+				{
+					"name": "Vertical Cut between foreground and transparent 3/4",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--foreground) 75%,var(--wp--preset--color--transparent) 75%)",
+					"slug": "cut-foreground-transparent-3-4"
+				},
+				{
+					"name": "Vertical Cut between transparent and foreground 1/4",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--transparent) 25%,var(--wp--preset--color--foreground) 25%)",
+					"slug": "cut-transparent-foreground-1-4"
+				},
+				{
+					"name": "Vertical Cut between transparent and foreground 1/2",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--transparent) 50%,var(--wp--preset--color--foreground) 50%)",
+					"slug": "cut-transparent-foreground-1-2"
+				},
+				{
+					"name": "Vertical Cut between transparent and foreground 3/4",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--transparent) 75%,var(--wp--preset--color--foreground) 75%)",
+					"slug": "cut-transparent-foreground-3-4"
+				},
+				{
+					"name": "Horizontal Cut between foreground and transparent 1/4",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--foreground) 25%,var(--wp--preset--color--transparent) 25%)",
+					"slug": "cut-foreground-transparent-1-4-horizontal"
+				},
+				{
+					"name": "Horizontal Cut between foreground and transparent 1/2",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--foreground) 50%,var(--wp--preset--color--transparent) 50%)",
+					"slug": "cut-foreground-transparent-1-2-horizontal"
+				},
+				{
+					"name": "Horizontal Cut between foreground and transparent 3/4",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--foreground) 75%,var(--wp--preset--color--transparent) 75%)",
+					"slug": "cut-foreground-transparent-3-4-horizontal"
+				},
+				{
+					"name": "Horizontal Cut between transparent and foreground 1/4",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--transparent) 25%,var(--wp--preset--color--foreground) 25%)",
+					"slug": "cut-transparent-foreground-1-4-horizontal"
+				},
+				{
+					"name": "Horizontal Cut between transparent and foreground 1/2",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--transparent) 50%,var(--wp--preset--color--foreground) 50%)",
+					"slug": "cut-transparent-foreground-1-2-horizontal"
+				},
+				{
+					"name": "Horizontal Cut between transparent and foreground 3/4",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--transparent) 75%,var(--wp--preset--color--foreground) 75%)",
+					"slug": "cut-transparent-foreground-3-4-horizontal"
+				},
+				{
+					"name": "Vertical Cut between background and transparent 1/4",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--background) 25%,var(--wp--preset--color--transparent) 25%)",
+					"slug": "cut-background-transparent-1-4"
+				},
+				{
+					"name": "Vertical Cut between background and transparent 1/2",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--background) 50%,var(--wp--preset--color--transparent) 50%)",
+					"slug": "cut-background-transparent-1-2"
+				},
+				{
+					"name": "Vertical Cut between background and transparent 3/4",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--background) 75%,var(--wp--preset--color--transparent) 75%)",
+					"slug": "cut-background-transparent-3-4"
+				},
+				{
+					"name": "Vertical Cut between transparent and background 1/4",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--transparent) 25%,var(--wp--preset--color--background) 25%)",
+					"slug": "cut-transparent-background-1-4"
+				},
+				{
+					"name": "Vertical Cut between transparent and background 1/2",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--transparent) 50%,var(--wp--preset--color--background) 50%)",
+					"slug": "cut-transparent-background-1-2"
+				},
+				{
+					"name": "Vertical Cut between transparent and background 3/4",
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--transparent) 75%,var(--wp--preset--color--background) 75%)",
+					"slug": "cut-transparent-background-3-4"
+				},
+				{
+					"name": "Horizontal Cut between background and transparent 1/4",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--background) 25%,var(--wp--preset--color--transparent) 25%)",
+					"slug": "cut-background-transparent-1-4-horizontal"
+				},
+				{
+					"name": "Horizontal Cut between background and transparent 1/2",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--background) 50%,var(--wp--preset--color--transparent) 50%)",
+					"slug": "cut-background-transparent-1-2-horizontal"
+				},
+				{
+					"name": "Horizontal Cut between background and transparent 3/4",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--background) 75%,var(--wp--preset--color--transparent) 75%)",
+					"slug": "cut-background-transparent-3-4-horizontal"
+				},
+				{
+					"name": "Horizontal Cut between transparent and background 1/4",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--transparent) 25%,var(--wp--preset--color--background) 25%)",
+					"slug": "cut-transparent-background-1-4-horizontal"
+				},
+				{
+					"name": "Horizontal Cut between transparent and background 1/2",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--transparent) 50%,var(--wp--preset--color--background) 50%)",
+					"slug": "cut-transparent-background-1-2-horizontal"
+				},
+				{
+					"name": "Horizontal Cut between transparent and background 3/4",
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--transparent) 75%,var(--wp--preset--color--background) 75%)",
+					"slug": "cut-transparent-background-3-4-horizontal"
+				}
+			]
+		}
+	}
+}
